@@ -1,0 +1,95 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+  margin: 0px;
+  padding: 0px;
+  font-family: "Century Gothic";
+}
+
+body {
+  background-color: #080729;
+  color: #F0F0E6;
+}
+
+header {
+  background-image: url("assets/typing.jpg");
+}
+
+.pageTitle {
+  padding: 25%;
+  text-align: center;
+  -webkit-text-stroke: 1px #080729;
+}
+
+#ourColor {
+  color: #080729;
+  -webkit-text-stroke: 1px #F0f0e6;
+}
+
+.pageTitleSource {  
+  text-decoration: none;
+  text-align: right;
+  padding-top: 25%;
+  -webkit-text-stroke: .3px #080729;    
+  color: #F0f0e6;
+}
+
+
+/* STYLE TEXT */
+
+#amendmentSection {
+  background-color: #F0F0E6;
+  color: #080729;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+nav {
+  background-color: #B3922D;
+}
+.navBarUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B3922D;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navBarLI {
+  float: left;
+}
+
+.navBarLI, .navBarItems {
+  display: block;
+  color: #F0F0E6;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navBarItems {
+  padding: 14px 16px;
+}
+
+.navBarLI .navBarItems:hover {
+  background-color: #81640e;
+}
+
+.active {
+  background-color: #F0F0E6;
+  color: #080729;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+
+/* POP UP STYLING */
+
